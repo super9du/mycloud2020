@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cbc3ec2d-38d1-4134-9158-b0694544d7e8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mycloud@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mycloud@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mycloud@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mycloud: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="E:\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ixXPIdgS0UbuYy8j1zr4nPBKVB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="E:\Program Files\nodejs\node_global\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="liu.wolf.mycloud.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Workspaces\Demo\mycloud2020\cloud-provider-payment8002\src\main\java" />
+      <recent name="G:\Workspaces\Demo\mycloud2020\cloud-provider-payment8002\src\main\resources" />
+      <recent name="G:\Workspaces\Demo\mycloud2020\cloud-eureka-server7002\src\main\resources" />
+      <recent name="G:\Workspaces\Demo\mycloud2020\cloud-api-commons\src\main\java\liu\wolf\mycloud\entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PaymentMain8002 ">
+    <configuration name="EurekaServerMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mycloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mycloud.EurekaServerMain7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="cloud-eureka-server7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liu.wolf.mycloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="liu.wolf.mycloud.EurekaServerMain7001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liu.wolf.mycloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="liu.wolf.mycloud.EurekaServerMain7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="liu.wolf.OrderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liu.wolf.mycloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="liu.wolf.mycloud.PaymentMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8002 " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="cloud-provider-payment8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liu.wolf.mycloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="liu.wolf.mycloud.PaymentMain8002" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.OrderMain80" />
+      <item itemvalue="Spring Boot.EurekaServerMain7001" />
+      <item itemvalue="Spring Boot.EurekaServerMain7002" />
+      <item itemvalue="Spring Boot.PaymentMain8001" />
+      <item itemvalue="Spring Boot.PaymentMain8002 " />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PaymentMain8002 " />
+        <item itemvalue="Spring Boot.PaymentMain8001" />
+        <item itemvalue="Spring Boot.EurekaServerMain7001" />
+        <item itemvalue="Spring Boot.EurekaServerMain7001" />
+        <item itemvalue="Spring Boot.EurekaServerMain7002" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.22950819" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Wolf-Liu\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbc3ec2d-38d1-4134-9158-b0694544d7e8" name="Default Changelist" comment="" />
+      <created>1602850190436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602850190436</updated>
+      <workItem from="1602850196096" duration="11395000" />
+      <workItem from="1603016806122" duration="6428000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="630" y="124" key="#Notifications" timestamp="1602854532792">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="630" y="124" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1602854532792" />
+    <state x="447" y="124" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603023401601">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="447" y="124" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1603023401601" />
+    <state x="843" y="182" key="#com.intellij.ide.util.MemberChooser" timestamp="1602855132433">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="843" y="182" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1602855132433" />
+    <state x="551" y="391" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602858618654">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="551" y="391" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1602858618654" />
+    <state width="1127" height="326" key="GridCell.Tab.0.bottom" timestamp="1603024313750">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1127" height="326" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1603024313750" />
+    <state width="1127" height="326" key="GridCell.Tab.0.center" timestamp="1603024313750">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1127" height="326" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1603024313750" />
+    <state width="1127" height="326" key="GridCell.Tab.0.left" timestamp="1603024313750">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1127" height="326" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1603024313750" />
+    <state width="1127" height="326" key="GridCell.Tab.0.right" timestamp="1603024313750">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1127" height="326" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1603024313750" />
+    <state width="1127" height="326" key="GridCell.Tab.1.bottom" timestamp="1603024313750">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1127" height="326" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1603024313750" />
+    <state width="1127" height="326" key="GridCell.Tab.1.center" timestamp="1603024313750">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1127" height="326" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1603024313750" />
+    <state width="1127" height="326" key="GridCell.Tab.1.left" timestamp="1603024313750">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1127" height="326" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1603024313750" />
+    <state width="1127" height="326" key="GridCell.Tab.1.right" timestamp="1603024313750">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1127" height="326" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1603024313750" />
+    <state x="655" y="131" key="Registry" timestamp="1602857469580">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="655" y="131" key="Registry/0.0.1536.834@0.0.1536.834" timestamp="1602857469580" />
+    <state x="189" y="49" width="1115" height="714" key="SettingsEditor" timestamp="1603018835217">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="189" y="49" width="1115" height="714" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1603018835217" />
+    <state x="449" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1603018769853">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1603018769853" />
+    <state x="356" y="160" key="new project wizard" timestamp="1603023033040">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="356" y="160" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1603023033040" />
+    <state x="701" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1603024857366">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="701" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1603024857366" />
+  </component>
+</project>
