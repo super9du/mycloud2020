@@ -14,8 +14,11 @@
     <module>cloud-eureka-server7001</module>
     <module>cloud-eureka-server7002</module>
     <module>cloud-provider-payment8002</module>
-    <module>cloud-provider-payment8004</module>
+    <module>cloud-providerzk-payment8004</module>
     <module>cloud-consumerzk-order80</module>
+    <module>cloud-providerconsul-payment8006</module>
+    <module>cloud-consumerconsul-order80</module>
+    <module>cloud-consumer-feign-order80</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -33,6 +36,11 @@
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>liu.wolf</groupId>
+        <artifactId>cloud-api-commons</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
       <!--spring boot 2.2.2-->
       <dependency>
         <groupId>org.springframework.boot</groupId>
