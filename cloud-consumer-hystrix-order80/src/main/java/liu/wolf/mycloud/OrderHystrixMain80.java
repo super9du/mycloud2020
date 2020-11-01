@@ -2,18 +2,22 @@ package liu.wolf.mycloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
- * Demo OrderFeignMain
+ * Demo OrderHystrixMain80
  *
  * @author Wolf-Liu
- * @date 2020/10/26 22:07
+ * @date 2020/11/1 22:24
  */
 @SpringBootApplication
 @EnableFeignClients
-public class OrderFeignMain {
+@EnableHystrix
+public class OrderHystrixMain80 {
     public static void main(String[] args) {
-        SpringApplication.run(OrderFeignMain.class, args);
+        SpringApplication.run(OrderHystrixMain80.class, args);
     }
 }
+
+
