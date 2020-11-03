@@ -8,6 +8,7 @@
 
 ## 学习进度
 
+* 2020年11月3日    第 73-74 集   结束 gateway 学习，开始 config 学习
 * 2020年11月2日    第 63-72 集   结束 hystrix dashboard 学习，完成 Gateway Predicate 学习
 * 2020年11月1日    第 58-62 集   结束 hystrix 学习
 * 2020年10月27日-2020年10月31日    第 46-57 集 hystrix 学习
