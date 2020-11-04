@@ -1,0 +1,30 @@
+server:
+  port: 3355
+
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/super9du/SpringcloudConfig.git
+          search-paths:
+            - respo
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'
