@@ -1,0 +1,32 @@
+server:
+  port: 8801
+
+spring:
+  application:
+    name: cloud-stream-provider
+  cloud:
+    stream:
+      binders:
+        defaultRabbit:
+          type: rabbit
+          environment: # 设置rabbitmq的相关的环境配置
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5672
+                username: guest
+                password: guest
+      bindings:
+        output: # 这个名字是一个通道的名称
+          destination: studyExchange # 表示要使用的Exchange名称定义
+          content-type: application/json # 设置消息类型，本次为json，文本则设置“text/plain”
+          binder: defaultRabbit # 设置要绑定的消息服务的具体设置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: send-8801
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 5 # 设置心跳的时间间隔（默认是30秒）
+    lease-expiration-duration-in-seconds: 10
