@@ -1,0 +1,21 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: nacos-payment-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        group: DEV_GROUP
+        namespace: 304fa9c6-23bb-4f24-a700-84553fc2dfa9
+  profiles:
+    active: test
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
