@@ -33,6 +33,9 @@
     <module>cloudalibaba-provider-payment9002</module>
     <module>cloudalibaba-consumer-nacos-order83</module>
     <module>cloudalibaba-sentinel-service8401</module>
+    <module>cloudalibaba-seata-order2001</module>
+    <module>cloudalibaba-seata-storage2002</module>
+    <module>cloudalibaba-seata-account2003</module>
   </modules>
   <packaging>pom</packaging>
 
