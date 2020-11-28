@@ -12,8 +12,9 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @date 2020/11/1 22:26
  */
 @Component
-@FeignClient(value = "CLOUD-PAYMENT-HYSTRIX-SERVICE", path = "payment/hystrix/"
-        , fallback = PaymentHystrixServiceImpl.class)
+@FeignClient(value = "CLOUD-PAYMENT-HYSTRIX-SERVICE" // 消费服务名
+        , path = "payment/hystrix/" // 消费服务的URL路径
+        , fallback = PaymentHystrixServiceImpl.class) // 失败回调
 public interface PaymentHystrixService {
     @GetMapping("ok/{id}")
     public String ok(@PathVariable("id") Long id);

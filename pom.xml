@@ -32,6 +32,7 @@
     <module>cloudalibaba-provider-payment9001</module>
     <module>cloudalibaba-provider-payment9002</module>
     <module>cloudalibaba-consumer-nacos-order83</module>
+    <module>cloudalibaba-sentinel-service8401</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -70,7 +71,7 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
-      <!--spring cloud alibaba 2.1.0.RELEASE-->
+      <!--spring cloud alibaba -->
       <dependency>
         <groupId>com.alibaba.cloud</groupId>
         <artifactId>spring-cloud-alibaba-dependencies</artifactId>

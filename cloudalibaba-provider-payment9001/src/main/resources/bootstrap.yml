@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: nacos-payment-provider
+  profiles:
+    active: test
   cloud:
     nacos:
       discovery:
@@ -10,10 +12,8 @@ spring:
       config:
         server-addr: localhost:8848
         file-extension: yaml
-        group: DEV_GROUP
-        namespace: 304fa9c6-23bb-4f24-a700-84553fc2dfa9
-  profiles:
-    active: test
+#        group: DEV_GROUP
+#        namespace: 304fa9c6-23bb-4f24-a700-84553fc2dfa9
 management:
   endpoints:
     web:

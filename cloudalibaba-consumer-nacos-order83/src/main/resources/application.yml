@@ -8,6 +8,10 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8719
 management:
   endpoints:
     web:
@@ -15,3 +19,6 @@ management:
         include: '*'
 provider:
   server-name: nacos-payment-provider
+feign:
+  sentinel:
+    enabled: true

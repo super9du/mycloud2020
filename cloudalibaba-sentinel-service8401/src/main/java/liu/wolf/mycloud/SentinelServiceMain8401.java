@@ -3,19 +3,17 @@ package liu.wolf.mycloud;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
- * Demo NacosOrderMain83
+ * Demo SentinelServiceMain8401
  *
  * @author Wolf-Liu
- * @date 2020/11/15 19:17
+ * @date 2020/11/22 14:34
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableFeignClients
-public class NacosOrderMain83 {
+public class SentinelServiceMain8401 {
     public static void main(String[] args) {
-        SpringApplication.run(NacosOrderMain83.class, args);
+        SpringApplication.run(SentinelServiceMain8401.class, args);
     }
 }
