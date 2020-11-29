@@ -1,7 +1,5 @@
 # SpringCloud 不入门到入门
 
-[TOC]
-
 ## 学习资料
 
 - [Spring Cloud 中文文档](https://www.springcloud.cc/)
@@ -18,29 +16,30 @@
     </tr>
 </table>
 
-| 分类                              | 名称                          | 说明             | 分组                 | 推荐 |
-| --------------------------------- | ----------------------------- | ---------------- | -------------------- | ---- |
-| [服务注册与发现](#服务注册与发现) | [Eureka](#Eureka)             | 维护中，不再更新 | Spring Cloud         | :x:  |
-|                                   | [Zookeeper](#Zookeeper)       |                  | Spring Cloud         |      |
-|                                   | [Consul](#Consul)             |                  | Spring Cloud         | :v:  |
-|                                   | [Nacos](#Nacos)               |                  | Spring Cloud Alibaba | :v:  |
-|                                   | [Dubbo](#Dubbo)               |                  |                      |      |
-| [负载均衡](#负载均衡)             | [Ribbon](#Ribbon)             |                  | Spring Cloud         | :v:  |
-|                                   | [LoadBalancer](#LoadBalancer) |                  | Spring Cloud         | :v:  |
-| [服务调用](#服务调用)             | [Feign](#Feign)               |                  | Spring Cloud         | :x:  |
-|                                   | [OpenFeign](#OpenFeign)       |                  | Spring Cloud         | :v:  |
-| [服务熔断与流控](#服务熔断与流控) | [Hystrix](#Hystrix)           |                  | Spring Cloud         | :x:  |
-|                                   | [Sentinel](#Sentinel)         |                  | Spring Cloud Alibaba | :v:  |
-|                                   | [resilience4j](#resilience4j) |                  | Spring Cloud         | :v:  |
-| [链路追踪](#链路追踪)             | zipkin                        |                  | Spring Cloud         |      |
-| [服务网关](#服务网关)             | Zuul / Zuul2                  |                  | Spring Cloud         | :x:  |
-|                                   | gateway                       |                  | Spring Cloud         | :v:  |
-| [配置中心](#配置中心)             | [config](#config)             |                  | Spring Cloud         | :x:  |
-|                                   | [Nacos](#Nacos)               |                  | Spring Cloud Alibaba | :v:  |
-| [消息总线](#消息总线)             | Bus                           |                  | Spring Cloud         |      |
-|                                   | Nacos                         |                  | Spring Cloud Alibaba |      |
-| [消息驱动](#消息驱动)             | Stream                        |                  | Spring Cloud         |      |
-| 分布式事务                        | [Seata](#Seata)               |                  | Spring Cloud Alibaba |      |
+| 分类                              | 名称                          | 分组                 | 推荐 | 备注                       |
+| --------------------------------- | ----------------------------- | -------------------- | ---- | -------------------------- |
+| [服务注册与发现](#服务注册与发现) | [Eureka](#Eureka)             | Spring Cloud         | :x:  | 停更维护                   |
+|                                   | [Zookeeper](#Zookeeper)       | Spring Cloud         | :v:  |                            |
+|                                   | [Consul](#Consul)             | Spring Cloud         | :v:  |                            |
+|                                   | [Nacos](#Nacos)               | Spring Cloud Alibaba | :v:  |                            |
+|                                   | [Dubbo](#Dubbo)               |                      |      |                            |
+| [负载均衡](#负载均衡)             | [Ribbon](#Ribbon)             | Spring Cloud         | :v:  | 停更维护，但使用量仍然较多 |
+|                                   | [LoadBalancer](#LoadBalancer) | Spring Cloud         | :v:  |                            |
+| [服务调用](#服务调用)             | [Feign](#Feign)               | Spring Cloud         | :x:  | 过时                       |
+|                                   | [OpenFeign](#OpenFeign)       | Spring Cloud         | :v:  |                            |
+| [服务熔断与流控](#服务熔断与流控) | [Hystrix](#Hystrix)           | Spring Cloud         | :x:  | 使用量大，但进入停更维护   |
+|                                   | [resilience4j](#resilience4j) | Spring Cloud         | :v:  | 国外使用多                 |
+|                                   | [Sentinel](#Sentinel)         | Spring Cloud Alibaba | :v:  |                            |
+| [链路追踪](#链路追踪)             | zipkin                        | Spring Cloud         |      |                            |
+| [服务网关](#服务网关)             | Zuul                          | Spring Cloud         | :x:  | 过时                       |
+|                                   | Zuul2                         | Spring Cloud         | :x:  | 难产                       |
+|                                   | gateway                       | Spring Cloud         | :v:  | Spring 官方                |
+| [配置中心](#配置中心)             | [config](#config)             | Spring Cloud         | :x:  |                            |
+|                                   | [Nacos](#Nacos)               | Spring Cloud Alibaba | :v:  |                            |
+| [消息总线](#消息总线)             | Bus                           | Spring Cloud         | :x:  |                            |
+|                                   | Nacos                         | Spring Cloud Alibaba | :v:  |                            |
+| [消息驱动](#消息驱动)             | Stream                        | Spring Cloud         |      |                            |
+| 分布式事务                        | [Seata](#Seata)               | Spring Cloud Alibaba |      |                            |
 
 ## 注解与配置参考
 
@@ -407,13 +406,11 @@ RT：平均请求时间
 
 官网：http://seata.io/zh-cn/
 
-## 目标
-
-2020年11月7日晚23:59分前完成学习
+注解：`@GlobalTransactional` 开启全局分布式事务
 
 ## 学习进度
 
-* 2020年11月28日-29日凌晨 学完   结束 seata 学习（未能实现正常运行） 
+* 2020年11月28日-29日凌晨 学完   结束 seata 学习
 * 2020年11月26日   第 111-136 集 结束 Sentinel 学习
 * 2020年11月22日上午 第 106-110 集 结束 nacos 学习
 * 2020年11月16日   第 92-105 集  nacos 学习
