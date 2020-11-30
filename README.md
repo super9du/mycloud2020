@@ -408,6 +408,12 @@ RT：平均请求时间
 
 注解：`@GlobalTransactional` 开启全局分布式事务
 
+## 友情链接
+
+- [知名大学开源课程收录计划（北大、清华等985、211大学课程收录计划）](https://github.com/super9du/ggs-ddu)
+- [Linux 不入门到入门](https://github.com/super9du/linux-primer)
+- [这才是真正的书评！](https://book.douban.com/review/12437882/)
+
 ## 学习进度
 
 * 2020年11月28日-29日凌晨 学完   结束 seata 学习
