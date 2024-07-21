@@ -58,8 +58,8 @@
     instance:
       hostname: eureka7001.com
     client:
-      register-with-eureka: false #false表示不向注册中心注册自己
-      fetch-registry: false       #false表示自己就是注册中心
+      register-with-eureka: false # 默认为 true。false表示不向注册中心注册自己
+      fetch-registry: false       # 默认为 true。false表示自己就是注册中心
       service-url:
         # 管理中心地址
         defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
@@ -68,17 +68,17 @@
 **客户端**
 
 * 注解
-  
-  * `@EnableDiscoveryClient` 
+
   * `@EnableEurekaClient`
-  
+  * `@EnableDiscoveryClient` 此注解可以实现 `@EnableEurekaClient` 的功能
+
 * 配置
 
   ```yaml
   eureka:
     instance:
-      instance-id: payment8001
-      prefer-ip-address: true
+      instance-id: payment8001 # eureka 使用 instance-id 替代「主机名:服务名」的组合
+      prefer-ip-address: true  # 使用 ip 替代 host 显示 
     client:
       service-url:
         defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
@@ -86,7 +86,7 @@
 
 #### Zookeeper
 
-- 注解（客户端）：`@EnableDiscoveryClient` 
+- 注解（客户端）：`@EnableDiscoveryClient`
 
 - 配置
 
@@ -100,7 +100,7 @@
 
 #### Consul
 
-- 注解（客户端）：`@EnableDiscoveryClient` 
+- 注解（客户端）：`@EnableDiscoveryClient`
 
 - 配置
 
@@ -118,7 +118,7 @@
 
 #### Ribbon
 
-> 进入维护，使用量庞大 
+> 进入维护，使用量庞大
 
 使用
 
@@ -190,7 +190,7 @@ spring:
 
 > 用于请求转发、请求拦截、请求过滤
 
-- Zuul 
+- Zuul
 
 - Zuul2
 
@@ -303,7 +303,7 @@ spring:
 
 #### 服务注册与发现
 
-- 注解（客户端）：`@EnableDiscoveryClient` 
+- 注解（客户端）：`@EnableDiscoveryClient`
 
 - 配置（bootstrap.yml）
 
